@@ -1,0 +1,8 @@
+{
+  "instanceUrl": "https://lemmy.world",
+  "communityName": "asklemmy",
+  "sort": "TopWeek",
+  "maxPosts": 3,
+  "includeComments": true,
+  "maxCommentsPerPost": 2
+}
