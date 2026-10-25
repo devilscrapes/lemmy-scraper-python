@@ -88,7 +88,7 @@ for item in client.dataset(run.default_dataset_id).iterate_items():
 |---|---|---|---|---|
 | `instanceUrl` | string | yes | `"https://lemmy.world"` | — |
 | `communityName` | string | yes | `"asklemmy"` | — |
-| `sort` | string | no | `"Hot"` | `Active`, `Controversial`, `Hot`, `MostComments`, `New`, `NewComments`, `Old`, `Scaled`, `TopAll`, `TopDay`, `TopHour`, `TopMonth`, `TopSixHour`, `TopTwelveHour`, `TopWeek`, `TopYear` |
+| `sort` | string | no | `"Hot"` | `Active`, `Hot`, `New`, `Old`, `Scaled`, `Controversial`, `MostComments`, `NewComments`, `TopHour`, `TopSixHour`, `TopTwelveHour`, `TopDay`, `TopWeek`, `TopMonth`, `TopYear`, `TopAll` |
 | `maxPosts` | integer | no | `100` | — |
 | `includeComments` | boolean | no | `false` | — |
 | `maxCommentsPerPost` | integer | no | `50` | — |
