@@ -142,11 +142,10 @@ Rows come in two kinds, told apart by `row_type`. On post rows the `comment_*` c
 
 | Event | Price (USD) |
 |---|---|
-| Actor start | $0.2 |
 | Post row emitted | $0.002 |
 | Comment row emitted | $0.001 |
 
-Prices as configured on 2026-08-20. The [Actor page](https://apify.com/DevilScrapes/lemmy-community-scraper) always shows the current price. Runs are billed to the Apify account that owns the token. Use `--max-charge` to cap what a single run can cost.
+Prices as configured on 2026-11-03. The [Actor page](https://apify.com/DevilScrapes/lemmy-community-scraper) always shows the current price. Runs are billed to the Apify account that owns the token. Use `--max-charge` to cap what a single run can cost.
 
 ## 🛠️ Working with the data in Python
 
